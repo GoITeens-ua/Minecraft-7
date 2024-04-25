@@ -33,11 +33,7 @@
 
 Як відомо, в Minecraft ми можемо створювати не тільки елементи з твердих матеріалів (дошки, камені тощо), але і створювати **елементи з води**. А якщо після прокладання води той же простір заповнити травою, то ми повернемося до вихідного стану, тобто «осушимо» воду.
 
-| **№**          | **1**                                                                                                                                                                                  |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Завдання:**  | <ol><li>Зробіть водний канал від точки <strong>(0;-61;0)</strong> до точки <strong>(1;-61;30)</strong></li><li>При команді чату <strong>nochannel</strong> — «осушіть» канал</li></ol> |
-| **Код:**       | <p></p><p><img src=".gitbook/assets/22.png" alt=""><img src=".gitbook/assets/23 (1).png" alt=""></p>                                                                                   |
-| **Результат:** | <p><img src=".gitbook/assets/image (25).png" alt=""></p><p><img src=".gitbook/assets/image (8).png" alt=""></p>                                                                        |
+<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>1</strong></td></tr><tr><td><strong>Завдання:</strong></td><td><ol><li>Зробіть водний канал від точки <strong>(0;-61;0)</strong> до точки <strong>(1;-61;30)</strong></li><li>При команді чату <strong>nochannel</strong> — «осушіть» канал</li></ol></td></tr><tr><td><strong>Код:</strong></td><td><p></p><p><img src=".gitbook/assets/22.png" alt=""><img src=".gitbook/assets/23 (1).png" alt=""></p></td></tr><tr><td><strong>Результат:</strong></td><td><p><img src=".gitbook/assets/image (25).png" alt=""></p><p><img src=".gitbook/assets/image (8).png" alt=""></p></td></tr></tbody></table>
 
 [https://makecode.com/\_bqifJh2LXhDc](https://makecode.com/\_bqifJh2LXhDc)
 
@@ -57,55 +53,62 @@
 
 І сьогодні ми з вами збудуємо таку розу вітрів, яка стане основою для майбутнього дива світу⭐️
 
-| Зробимо 4 діагоналі                                                                                                                                                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><img src=".gitbook/assets/24.png" alt=""><br><img src=".gitbook/assets/25.png" alt=""><br><img src=".gitbook/assets/26 (2).png" alt=""><br><img src=".gitbook/assets/27.png" alt=""></p>     |
-| А також 4 лінії, що з'єднуються під прямим кутом:                                                                                                                                               |
-| <p><br><img src=".gitbook/assets/28 (3).png" alt=""><br><img src=".gitbook/assets/29.png" alt=""><br><img src=".gitbook/assets/30.png" alt=""><br><img src=".gitbook/assets/31.png" alt=""></p> |
-| В результаті — отримаємо такий елемент в якості рози вітрів:                                                                                                                                    |
-| ![](<.gitbook/assets/image (27).png>)                                                                                                                                                           |
+Для зручності написання координат, можемо використовувати схему - [посилання.](https://docs.google.com/spreadsheets/d/1sSdltP7QhZFc7jB-TG7dd5xrrLy9FAaZ7N\_HQi4vZQ0/edit?usp=sharing)
 
-### ****[**Роза вітрів. Цикл**](https://makecode.com/\_5p615kWWaDbF)****
+Побудуємо квадрат 17х17 блоків_(по 8 блоків у кожну сторону)._
 
-Для того, щоб цю форму мала не лише лінія висотою в 1 блок, а ціла стіна, додамо змінні та цикли до нашого коду. Продублюємо попередній код.&#x20;
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/0a8e53b0-e55b-481c-b02a-e5d510e6b59b%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.29.39.png)![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/ba65b8a4-9c2d-4729-993f-dd07113b52a3%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.17.19.png)\
 
-Замінемо повідомлення чату, при якому код буде виконуватися (на **rose-up**). А також додамо елементи, що дозволять нам повторювати відповідний код по елементах, при цьому кожен наступний крок буде піднімати лінію на 1 блок.&#x20;
+
+Зробимо чотири кола, змістивши кожен з центрів у різні сторони від нас, на 8 блоків, радіус = 3, орієнтацією - вгору/вниз, та виберемо - пустоту.
+
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/36aa2c47-82e0-4e18-a649-bf26fe11d244%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.31.16.png)
+
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/79f29b0b-4b10-43ae-9249-f1f4a89d8b35%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.30.55.png)![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/2ee4c36b-65b9-4da0-bb92-92aa7ba2cc5d%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.32.19.png)
+
+Нам залишилось вирізати серединку квадратом повітря.
+
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/c0dd25be-bdf0-4179-8abe-5518503cec82%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.33.39.png)\
+
+
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/0754c6f7-2691-435b-bde8-9b2430aa9883%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.34.16.png)
+
+В результаті — отримаємо такий елемент в якості рози вітрів:
+
+\
+![](https://3627081962-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FwLN9YgMhufyEMaXwoPxu%2Fuploads%2F2gJPfcRhWS5HMXYfTR4A%2Fimage.png?alt=media\&token=6fb637da-a2c7-4abd-b4a1-db5fb77b5978)\
+
+
+### [**Роза вітрів. Цикл**](https://makecode.com/\_5p615kWWaDbF)
+
+Для того, щоб цю форму мала не лише лінія висотою в 1 блок, а ціла стіна, додамо змінні та цикли до нашого коду. Продублюємо попередній код.
+
+А також додамо елементи, що дозволять нам повторювати відповідний код по елементах, при цьому кожен наступний крок буде піднімати лінію на 1 блок.
 
 Розберемо основні рішення такої можливості:
 
-![](<.gitbook/assets/image (6).png>)
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/390bc8a7-b73d-4dc6-a0aa-eaa816a8ff85%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2017.17.06.png)
 
-{% hint style="info" %}
-**1** — Зробимо можливість змінювати матеріал для побудови.&#x20;
+**1** — Зробимо можливість змінювати матеріал для побудови_(створюємо змінну **матеріал)**._
 
-**2** — Повторимо стільки разів, яку висоту хочемо отримати.&#x20;
+**2** — Повторимо стільки разів, яку висоту хочемо отримати_(ставимо наш код у цикл з index)._
 
-**3, 6** — додамо можливість будувати не тільки починаючи від висоти 0, але й від будь-якої висоти.&#x20;
+**3, 6** — додамо можливість будувати не тільки починаючи від висоти 0, але й від будь-якої висоти(_створюємо змінну висота для якої задаємо значення (-60 + index), -60 це початкова точка, і кожен наступний цикл, висота буде змінюватись на +1)._
 
-**4, 5** — додамо визначні змінні до вже створених елементів (**material** — в позицію, де визначається тим блоків, **n** — де визначається y-координата)
-{% endhint %}
+**4, 5** — додамо визначні змінні до вже створених елементів (**material** — в позицію, де визначається тим блоків, **висота** — де визначається y-координата)\
+
 
 У результаті — отримаємо код, що будує стіну, яка за формою відповідає розі вітрів:
 
-![](.gitbook/assets/32.png)
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/11f41faf-da96-4510-a5df-2f2d1b89e849%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2017.25.14.png)
 
-![](<.gitbook/assets/image (5).png>)
-
-![](<.gitbook/assets/image (4).png>)
-
-![](<.gitbook/assets/image (26).png>)
-
-![](.gitbook/assets/image.png)
-
-![](<.gitbook/assets/image (28).png>)
-
-![](<.gitbook/assets/image (21).png>)
-
-![](<.gitbook/assets/image (7).png>)
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/7563b940-783d-4694-891a-a3e8fa836b7b%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2017.25.26.png)
 
 Отримаємо результат:
 
-![](<.gitbook/assets/image (12).png>)
+![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/bbc4dcfe-1709-4b2d-adaa-ef672ecf7246%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2017.26.35.png)
+
+Код [=)](https://makecode.com/\_amu1sVL4m22A)
 
 ### Очищення поля
 
