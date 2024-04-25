@@ -33,7 +33,7 @@
 
 Як відомо, в Minecraft ми можемо створювати не тільки елементи з твердих матеріалів (дошки, камені тощо), але і створювати **елементи з води**. А якщо після прокладання води той же простір заповнити травою, то ми повернемося до вихідного стану, тобто «осушимо» воду.
 
-<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>1</strong></td></tr><tr><td><strong>Завдання:</strong></td><td><ol><li>Зробіть водний канал від точки <strong>(0;-61;0)</strong> до точки <strong>(1;-61;30)</strong></li><li>При команді чату <strong>nochannel</strong> — «осушіть» канал</li></ol></td></tr><tr><td><strong>Код:</strong></td><td><p></p><p><img src=".gitbook/assets/22.png" alt=""><img src=".gitbook/assets/23 (1).png" alt=""></p></td></tr><tr><td><strong>Результат:</strong></td><td><p><img src=".gitbook/assets/image (25).png" alt=""></p><p><img src=".gitbook/assets/image (8).png" alt=""></p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="207.10195674562308"></th><th width="598.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>1</strong></td></tr><tr><td><strong>Завдання:</strong></td><td><ol><li>Зробіть водний канал від точки <strong>(0;-61;0)</strong> до точки <strong>(1;-61;30)</strong></li><li>При команді чату <strong>nochannel</strong> — «осушіть» канал</li></ol></td></tr><tr><td><strong>Код:</strong></td><td><p></p><p><img src=".gitbook/assets/22.png" alt=""><img src=".gitbook/assets/23 (1).png" alt=""></p></td></tr><tr><td><strong>Результат:</strong></td><td><p><img src=".gitbook/assets/image (25).png" alt=""></p><p><img src=".gitbook/assets/image (8).png" alt=""></p></td></tr></tbody></table>
 
 [https://makecode.com/\_bqifJh2LXhDc](https://makecode.com/\_bqifJh2LXhDc)
 
@@ -53,9 +53,31 @@
 
 І сьогодні ми з вами збудуємо таку розу вітрів, яка стане основою для майбутнього дива світу⭐️
 
+#### Функція  <a href="#d1-84-d0-bd-d1-83-d0-ba-d1-86-d1-96-d1-8f-d0-b1-d0-b5-d0-b7-d0-bf-d0-b0-d1-80-d0-b0-d0-bc-d0-b5-d1-8" id="d1-84-d0-bd-d1-83-d0-ba-d1-86-d1-96-d1-8f-d0-b1-d0-b5-d0-b7-d0-bf-d0-b0-d1-80-d0-b0-d0-bc-d0-b5-d1-8"></a>
+
+Для того, щоб використовувати декілька елементів в рамках певного цілого, зручно використовувати такий інструмент, як функції.
+
+Для цього можемо створити функцію в меню «Функції».
+
+![](<.gitbook/assets/Знімок екрана 2024-04-25 о 20.24.32.png>)
+
+Найпростіший варіант функції, тільки із назвою:
+
+![](<.gitbook/assets/Знімок екрана 2024-04-25 о 20.25.40.png>)
+
+Для того, щоб функція запускала код, необхідно додати його **в середину блоку функції**.
+
+![](<.gitbook/assets/Знімок екрана 2024-04-25 о 20.27.46.png>)
+
+Для використання необхідно взяти блок функції та перетягнути в те місце, де ви бажаєте запустити відповідну функцію.
+
+![](<.gitbook/assets/Знімок екрана 2024-04-25 о 20.29.09.png>)
+
+![](<.gitbook/assets/Знімок екрана 2024-04-25 о 20.29.16.png>)
+
+Тепер, давайте використаємо нашу функцію для побудови Рози вітрів.
+
 Для зручності написання координат, можемо використовувати схему - [посилання.](https://docs.google.com/spreadsheets/d/1sSdltP7QhZFc7jB-TG7dd5xrrLy9FAaZ7N\_HQi4vZQ0/edit?usp=sharing)
-
-
 
 <table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>Завдання:</strong></td><td><ol><li>Побудуємо квадрат 17х17 блоків<em>(по 8 блоків у кожну сторону).</em></li></ol></td></tr><tr><td><strong>Схема</strong></td><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 16.29.39.png" alt=""></td></tr><tr><td>Код<strong>:</strong></td><td><p></p><p><img src=".gitbook/assets/ba65b8a4-9c2d-4729-993f-dd07113b52a3Знімок екрана 2024-04-25 о 16.17.19.png" alt=""></p></td></tr><tr><td><strong>Результат:</strong></td><td><p></p><p><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 17.56.07.png" alt=""></p></td></tr></tbody></table>
 
@@ -69,11 +91,21 @@
 
 ### [**Роза вітрів. Цикл**](https://makecode.com/\_5p615kWWaDbF)
 
-Для того, щоб цю форму мала не лише лінія висотою в 1 блок, а ціла стіна, додамо змінні та цикли до нашого коду. Продублюємо попередній код.
+Для того, щоб цю форму мала не лише лінія висотою в 1 блок, а ціла стіна, додамо змінні та **Цикл із параметром** до нашого коду.
 
-А також додамо елементи, що дозволять нам повторювати відповідний код по елементах, при цьому кожен наступний крок буде піднімати лінію на 1 блок.
+Давайте згадаємо що таке **Цикл із параметром.**
 
-Розберемо основні рішення такої можливості:
+**Цикл із параметром** повторюється **5 разів,** і на кожному кроці виконання циклу значення лічильника змінюється **від 0 до 4** (0,1,2,3,4).
+
+<table><thead><tr><th width="509.58262657007145">Код</th><th width="311">Результат</th></tr></thead><tbody><tr><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 20.12.26.png" alt=""></td><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 20.13.07.png" alt=""></td></tr></tbody></table>
+
+Тепер створимо та вирахуємо змінну **висота**, що буде залежати від змінної-лічильника **index**.
+
+<table><thead><tr><th width="352.9305555555556">Код</th><th width="271">Результат</th></tr></thead><tbody><tr><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 20.14.59.png" alt=""></td><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 20.15.21.png" alt=""></td></tr></tbody></table>
+
+В результаті — ми зможемо створювати такі ж Рози вітрів, тільки із використанням циклів це буде на різній висоті.
+
+Тому, давайте розберемо основні рішення такої можливості:
 
 ![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/390bc8a7-b73d-4dc6-a0aa-eaa816a8ff85%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2017.17.06.png)
 
