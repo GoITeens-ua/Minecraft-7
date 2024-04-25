@@ -55,28 +55,16 @@
 
 Для зручності написання координат, можемо використовувати схему - [посилання.](https://docs.google.com/spreadsheets/d/1sSdltP7QhZFc7jB-TG7dd5xrrLy9FAaZ7N\_HQi4vZQ0/edit?usp=sharing)
 
-Побудуємо квадрат 17х17 блоків_(по 8 блоків у кожну сторону)._
-
-![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/0a8e53b0-e55b-481c-b02a-e5d510e6b59b%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.29.39.png)![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/ba65b8a4-9c2d-4729-993f-dd07113b52a3%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.17.19.png)\
 
 
-Зробимо чотири кола, змістивши кожен з центрів у різні сторони від нас, на 8 блоків, радіус = 3, орієнтацією - вгору/вниз, та виберемо - пустоту.
+<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>Завдання:</strong></td><td><ol><li>Побудуємо квадрат 17х17 блоків<em>(по 8 блоків у кожну сторону).</em></li></ol></td></tr><tr><td><strong>Схема</strong></td><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 16.29.39.png" alt=""></td></tr><tr><td>Код<strong>:</strong></td><td><p></p><p><img src=".gitbook/assets/ba65b8a4-9c2d-4729-993f-dd07113b52a3Знімок екрана 2024-04-25 о 16.17.19.png" alt=""></p></td></tr><tr><td><strong>Результат:</strong></td><td><p></p><p><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 17.56.07.png" alt=""></p></td></tr></tbody></table>
 
-![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/36aa2c47-82e0-4e18-a649-bf26fe11d244%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.31.16.png)
-
-![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/79f29b0b-4b10-43ae-9249-f1f4a89d8b35%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.30.55.png)![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/2ee4c36b-65b9-4da0-bb92-92aa7ba2cc5d%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.32.19.png)
-
-Нам залишилось вирізати серединку квадратом повітря.
-
-![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/c0dd25be-bdf0-4179-8abe-5518503cec82%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.33.39.png)\
+<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>Завдання:</strong></td><td><ol start="2"><li>Зробимо чотири кола, змістивши кожен з центрів у різні сторони від нас, на 8 блоків, радіус = 3, орієнтацією - вгору/вниз, та виберемо - пустоту.</li></ol></td></tr><tr><td><strong>Схема</strong></td><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 16.31.16.png" alt=""></td></tr><tr><td>Код<strong>:</strong></td><td><p></p><p><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 16.30.55.png" alt=""></p></td></tr><tr><td><strong>Результат:</strong></td><td><p></p><p><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 17.59.38.png" alt=""></p></td></tr></tbody></table>
 
 
-![](https://s3.eu-north-1.amazonaws.com/lms.goiteens-files/0754c6f7-2691-435b-bde8-9b2430aa9883%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-04-25%20%D0%BE%2016.34.16.png)
 
-В результаті — отримаємо такий елемент в якості рози вітрів:
+<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>Завдання:</strong></td><td><ol start="3"><li>Нам залишилось вирізати серединку квадратом повітря.</li></ol></td></tr><tr><td><strong>Схема</strong></td><td><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 18.01.00.png" alt=""></td></tr><tr><td>Код<strong>:</strong></td><td><p></p><p><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 18.01.46.png" alt=""></p></td></tr><tr><td><strong>Результат:</strong></td><td><p></p><p><img src=".gitbook/assets/image (29).png" alt=""></p></td></tr></tbody></table>
 
-\
-![](https://3627081962-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FwLN9YgMhufyEMaXwoPxu%2Fuploads%2F2gJPfcRhWS5HMXYfTR4A%2Fimage.png?alt=media\&token=6fb637da-a2c7-4abd-b4a1-db5fb77b5978)\
 
 
 ### [**Роза вітрів. Цикл**](https://makecode.com/\_5p615kWWaDbF)
